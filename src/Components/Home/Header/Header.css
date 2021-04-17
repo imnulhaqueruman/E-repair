@@ -1,0 +1,12 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header-container{
+    background-image: url('../../../images/blackmobile.jpg');
+    background-size:cover;
+    background-position: relative;
+    height:800px;
+    
+    
+}

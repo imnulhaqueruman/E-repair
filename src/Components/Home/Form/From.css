@@ -1,0 +1,27 @@
+.container-form{
+    background-image: url('../../../images/frombg.jpg');
+    background-size: cover;
+    position:relative;
+    height:700px;
+    background-position: center center;
+    z-index:1;
+}
+.container-form::before{
+        height:700px;
+        content:' ';
+        display:block;
+        position: absolute;
+        top: 0;
+        width: 60%;
+        right: 0;
+        opacity:0.8;
+        background-color:#002E5A;
+        z-index: -1;
+        
+        
+    
+}
+.from-layout{
+    padding-top: 100px;
+    margin-left: 600px;
+}
