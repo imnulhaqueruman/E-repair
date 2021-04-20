@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Reviews.css';
-import alina from '../../../images/customer1.jpg';
-import alex from '../../../images/customer2.jpg';
-import sonika from '../../../images/customer3.jpg';
 import CustomerReview from '../CustomerReview/CustomerReview';
 const Reviews = () => {
-    const ReviewData = [
+    const[reviews,setReviews] = useState([])
+    useEffect(() => {
+        fetch('https://rocky-everglades-73892.herokuapp.com/userReview')
+        .then(res => res.json())
+        .then(data => setReviews(data))
+    },[])
+    /*const ReviewData = [
         {
             name:'Alina Mask',
             title:'Designer',
@@ -24,7 +27,7 @@ const Reviews = () => {
             description:'I feel very happy and be proud to connect with this industry. I presume this is a very productive and professional industry. I wish very good luck & success for this industry',
             img:sonika
         }
-    ]
+    ]*/
     return (
        <section className="review-container">
            <div className="text-center py-5 ">
@@ -36,7 +39,7 @@ const Reviews = () => {
            <div className="d-flex justify-content-center">
                <div className="row mx-5">
                    {
-                       ReviewData.map(data =><CustomerReview data={data}></CustomerReview>)
+                       reviews.map(data =><CustomerReview data={data}></CustomerReview>)
                    }
 
                </div>

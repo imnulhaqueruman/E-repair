@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../Footer/Footer';
+import Footer from '../../Shared/Footer/Footer';
 import From from '../Form/From';
 import Header from '../Header/Header';
 import Reviews from '../Reviews/Reviews';
@@ -17,6 +17,7 @@ const Home = () => {
             <From></From>
             <Reviews></Reviews>
             <Footer></Footer>
+            
         </div>
     );
 };

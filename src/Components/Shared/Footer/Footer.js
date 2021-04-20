@@ -7,11 +7,11 @@ import './Footer.css';
 
 const Footer = () => {
     const noNamed = [
-        {name: "Kitchen Remodel" , link: "/emergency"},
-        {name: "Home Renovation" , link: "/checkup"},
-        {name: "Home Repair" , link: "/personal-treatment"},
-        {name: "Painting" , link: "/tooth-extract"},
-        {name: "Bathroom Remodel" , link: "/checkup"},
+        {name: "Kitchen Remodel" , link: "/Remodel"},
+        {name: "Home Renovation" , link: "/home renovation"},
+        {name: "Home Repair" , link: "/home repair"},
+        {name: "Painting" , link: "/painting"},
+        {name: "Bathroom Remodel" , link: "/Bathroom Remodel"},
     ]
     const ourAddress = [
         {name: "Sylhet -  Zindabazar" , link: "//google.com/map"},
@@ -19,19 +19,17 @@ const Footer = () => {
        
     ]
     const Repair = [
-        {name: "Smartphone" , link: "/emergency"},
-        {name: "Computer" , link: "/checkup"},
-        {name: "Electronics" , link: "/personal-treatment"},
-        {name: "Applications" , link: "/tooth-extract"},
-        {name: "Console" , link: "/checkup"},
-        {name: "Help" , link: "/checkup"}
+        {name: "Smartphone" , link: "/smartphone"},
+        {name: "Computer" , link: "/computer"},
+        {name: "Electronics" , link: "/Electronics"},
+        {name: "Applications" , link: "/Applications"},
+        {name: "Console" , link: "/console"},
+        {name: "Help" , link: "/help"}
     ]
     const services = [
-        {name: "Kitchen Remodel" , link: "/emergency"},
-        {name: "Home Renovation" , link: "/checkup"},
-        {name: "Home Repair" , link: "/personal-treatment"},
-        {name: "Painting" , link: "/tooth-extract"},
-        {name: "Bathroom Remodel" , link: "/checkup"}
+        {name: "Kitchen Remodel" , link: "/remodel"},
+        {name: "Home Renovation" , link: "/renovation"},
+        {name: "Home Repair" , link: "/repair"},
        
     
     ]
