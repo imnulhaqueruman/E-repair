@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useHistory } from 'react-router-dom';
-
+import './ServiceDetail.css';
 const ServiceDetail = ({data}) => {
     const history = useHistory()
     const handleClick = id => {
@@ -9,7 +9,7 @@ const ServiceDetail = ({data}) => {
     }
     return (
         <div className="col-md-4">
-            <div>
+            <div className="animation">
                 <img className="img-fluid" src={data.imageUrl} alt="" />
             </div>
             <div className="py-5">
