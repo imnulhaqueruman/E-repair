@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import {  useHistory } from 'react-router-dom';
 import './ServiceDetail.css';
 const ServiceDetail = ({data}) => {
     const history = useHistory()
