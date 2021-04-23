@@ -4,7 +4,7 @@ const CustomerReview = ({data}) => {
  
     return (
         <section className="col-md-4 col-sm pb-3">
-            <div style={{height:'23rem'}} className="card border">
+            <div style={{height:'25rem'}} className="card border">
                <div className="d-flex mx-3 my-3">
                     <div>
                         <img src={data.photoURL} alt="" className="img-fluid rounded-circle px-3" />
