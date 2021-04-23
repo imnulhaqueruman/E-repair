@@ -29,15 +29,15 @@ const Reviews = () => {
         }
     ]*/
     return (
-       <section className="review-container">
+       <section className="review-container container-fluid">
            <div className="text-center py-5 ">
                <h1><strong style={{color:'#002C42'}}>What</strong> <strong style={{color:'#00C3ED'}}>Customers</strong>  
                 <strong style={{color:'#002C42'}}> Say</strong></h1>
                 <p>Explore Our Completed Projects! Consectetur adipiscing elitt elit tellus, luctus pulvinar
                     <br/> dapibus leoconsectetur luctus nec.</p>
            </div>
-           <div className="d-flex justify-content-center">
-               <div className="row mx-5">
+           <div className="d-flex container-fluid">
+               <div className="row col-sm-12 mx-5">
                    {
                        reviews.map(data =><CustomerReview data={data}></CustomerReview>)
                    }

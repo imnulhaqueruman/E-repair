@@ -1,7 +1,4 @@
-*{
-    margin:0;
-    padding:0;
-}
+
 .header-container{
     background-image: url('../../../images/blackmobile.jpg');
     background-size:cover;
@@ -10,3 +7,8 @@
     
     
 }
+@media screen and (min-width: 350px) {
+    .header-container{
+        height:100%;
+    }
+  }

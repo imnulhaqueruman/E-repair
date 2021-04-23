@@ -8,3 +8,17 @@
   height: 300px;
   transform: rotate(360deg);
 }
+@media screen and (min-width: 350px) {
+  .container-card {
+    background-color: lightgreen;
+    width:100%;
+    overflow-x: hidden;
+    height:auto;
+  }
+  .container-card img{
+    height:auto;
+    width:250px;
+    padding:5px 5px ;
+  }
+
+}

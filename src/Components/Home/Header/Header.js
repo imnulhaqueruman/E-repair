@@ -5,7 +5,7 @@ import HeaderMain from '../HeaderMain/HeaderMain';
 import './Header.css';
 const Header = () => {
     return (
-        <div className="header-container">
+        <div className="header-container container-fluid">
              <Nav></Nav>
              <HeaderMain></HeaderMain>
              <BusinessInfo></BusinessInfo>

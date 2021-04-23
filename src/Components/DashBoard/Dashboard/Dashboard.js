@@ -1,4 +1,6 @@
 import React from 'react';
+import Footer from '../../Shared/Footer/Footer';
+import Nav from '../../Shared/Navbar/Nav';
 import Sidebar from '../Sidebar/Sidebar';
 const containerStyle={
     backgroundColor:'#E8EAED',
@@ -12,7 +14,7 @@ const Dashboard = () => {
                     <Sidebar></Sidebar>
                 </div>
                 <div className="col-md-6 mx-5 px-5">
-                    
+                   
                 </div>
             </div>
         </section>

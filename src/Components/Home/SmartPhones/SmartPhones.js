@@ -52,8 +52,8 @@ const SmartPhones = () => {
                 </p>
 
             </div>
-            <div className="d-flex align-items-center py-5">
-                <div className="row mx-5">
+            <div className="d-flex align-items-center container-fluid py-5">
+                <div className="row col-sm-12 mx-5">
                     {
                         SmartPhones.map(phone => <Phone phone={phone}></Phone> )
                     }

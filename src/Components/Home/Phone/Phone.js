@@ -2,7 +2,7 @@ import React from 'react';
 import './Phone.css'
 const Phone = ({phone}) => {
     return (
-        <div className="col-md-4 px-3">
+        <div className="col-md-4 col-sm-6 px-3">
             <div className="container justify-content-center">
                 <div className="align-self-center">
                      <img className="img-fluid " style={{width:49 ,height:90}} src={phone.img} alt="" />

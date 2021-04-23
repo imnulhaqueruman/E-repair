@@ -14,3 +14,8 @@
     height:120px;
     padding:40px;
 }
+@media screen and (min-width: 350px) {
+   .info-container{
+       height:160px;
+   }
+  }

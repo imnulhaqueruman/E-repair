@@ -28,8 +28,8 @@ const TeamMembers = () => {
                <h5 className="py-5">Explore Our Completed Services! Consectetur adipiscing elitt elit tellus, <br/>luctus pulvinar dapibus leoconsectetur luctus 
                     nec.</h5>
            </div>
-           <div className="d-flex justify-content-center">
-               <div className="row mx-3">
+           <div className="d-flex justify-content-center container-fluid">
+               <div className="row col-sm-12 pb-3 mx-3">
                      {
                          members.map(member => <TeamMember member={member}></TeamMember>)
                      }

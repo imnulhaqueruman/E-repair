@@ -2,12 +2,12 @@ import React from 'react';
 import './From.css';
 const From = () => {
     return (
-        < div className="container-form my-5">
-                 <div className=" col-md-5 from-layout">
+        < div className="container-form my-5 container-fluid">
+                 <div className=" col-md-5 col-sm-12  from-layout">
                         <div className="my-5">
                             <h1 className="text-center text-white ">Send Us Message</h1>
                         </div>
-                        <form action="">
+                        <form action="" className="col-sm-12">
                         <div className="form-group py-3">
                             <input type="text" className="form-control" placeholder="Email Address *"/>
                         </div>

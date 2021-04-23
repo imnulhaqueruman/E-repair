@@ -8,11 +8,11 @@ const ServiceDetail = ({data}) => {
          console.log(id)
     }
     return (
-        <div className="col-md-4">
+        <div className="col-md-4 col-sm-12 container-card py-2">
             <div className="animation">
                 <img className="img-fluid" src={data.imageUrl} alt="" />
             </div>
-            <div className="py-5">
+            <div className="py-2">
                 <h2 className="text-center">{data.title}</h2>
                 <p className="text-secondary">{data.description}</p>
             </div>

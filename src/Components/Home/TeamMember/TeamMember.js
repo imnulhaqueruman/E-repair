@@ -2,7 +2,7 @@ import React from 'react';
 import './TeamMember.css';
 const TeamMember = ({member}) => {
     return (
-       <div className="col-md-4">
+       <div className="col-md-4 pb-2 col-sm-6">
             <div className="container">
                <div className="card rounded-3">
                   <img src={member.img} alt="" className="image img-fluid" />

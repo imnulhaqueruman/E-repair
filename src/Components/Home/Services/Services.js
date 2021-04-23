@@ -9,8 +9,8 @@ const Services = () => {
         .then(data => setServiceData(data))
     },[])
     return (
-       <div className="d-flex justify-content-center">
-            <div className="row w-75 mt-5 pt-5 pb-5">
+       <div className="d-flex justify-content-center container-fluid">
+            <div className="row  col-sm-12 mt-3 pt-3 pb-5">
                 {
                     serviceData.map(data => <ServiceDetail data={data}></ServiceDetail>)
                 }
